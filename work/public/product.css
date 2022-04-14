@@ -1,0 +1,132 @@
+.product-part{
+    width: 100%;
+    margin-top: 120px;
+    padding: 0px 5vw;
+    display: flex;
+    gap: 40px;
+}
+.product-image{
+    width: 60%;
+    height: 600px;
+    object-fit: cover;
+}
+.product-title{
+    font-size: 60px;
+}
+.product-des{
+    margin: 30px 0;
+    font-family: 'lota',sans-serif;
+    opacity: 0.5;
+    font-size: 20px;
+    line-height: 30px;
+}
+.ratings{
+    display: flex;
+}
+.ratings .star{
+    width: 50px;
+    height: 30px;
+}
+.rating-count{
+    font-family: 'lota',sans-serif;
+    opacity: 0.6;
+    font-size: 15px;
+    line-height: 40px;
+    margin-left: 20px;
+}
+.price{
+    font-size: 80px;
+    margin: 30px 0;
+}
+.product-btn{
+    padding: 13px 35px;
+    border: none;
+    color: rgb(255, 255, 255);
+    outline: none;
+    margin-right: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.buy-btn{
+    background-color: #d5be8b;
+}
+.add-btn{
+    background-color: black;
+}
+.detail-des, .review-secton,.add-review-section{
+    width: 100%;
+    padding: 100px 3vw 0;
+}
+.section-tle{
+    width: 100%;
+    padding: 20px 0;
+}
+.des{
+    font-family: 'lota',sans-serif;
+    line-height: 20px;
+    font-size: 20px;
+    opacity: 0.7;
+}
+.review-headline,.review-field{
+    width: 100%;
+    height: 40px;
+    border: 2px solid #d5be8b;
+    margin: 10px 0;
+    padding: 10px;
+    line-height: 30px;
+    font-family: 'lota',sans-serif;
+    color: black;
+    outline: none;
+}
+::placeholder{
+    color: #c9c9c9;
+}
+.review-field{
+    height:150px;
+    resize: none;
+    padding: 0 10px;
+}
+.review-headline:focus,.review-field:focus{
+    border-color: #b47f0b;
+}
+.review-headline:focus::placeholder,.review-field:focus::placeholder{
+    color: #b47f0b;
+}
+.rating-text{
+    font-family: 'lota',sans-serif;
+    color: #c9c9c9;
+    text-transform: uppercase;
+    margin: 10px 0;
+}
+.rstar{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.add-review-btn{
+    border: none;
+    outline: none;
+    background: #d5be8b;
+    padding: 10px 20px;
+    color: #fff;
+    font-family: 'lota',sans-serif;
+    cursor: pointer;
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
